@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode"> 
+
+<!--    <wpt lat="46.1558852441083" lon="-1.154602651307">-->
+<!--    <wpt lat="46.1568718750534" lon="-1.15385748785812">-->
+<!--    <name>entreTourDeLaChaine</name>-->
+<!--    </wpt>-->
+
+<!--    <wpt lat="46.1558626822798" lon="-1.15445715727182">-->
+    <wpt lat="46.1567804516673" lon="-1.15454563713082">
+        <time>2010-01-01T00:00:00Z</time>
+    <name>avantLaRueDesRestau</name>
+	</wpt>
+<!--    -->
+<!--    <wpt lat="46.1568004516673" lon="-1.15444563713082">-->
+<!--        <name>entreTourDeLaChaineEtLaGrosseHorloge</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="46.1567834516673" lon="-1.15394563713082">-->
+<!--        <name>entreTourDeLaChaineEtLaGrosseHorloge</name>-->
+<!--    </wpt>-->
+<!--    -->
+<wpt lat="46.1564933422189" lon="-1.15478880780542">
+    <time>2010-01-01T00:00:01Z</time>
+    <name>rando1</name>
+</wpt>
+
+<wpt lat="46.1565094590839" lon="-1.15377979074466">
+    <time>2010-01-01T00:00:07Z</time>
+    <name>rando2</name>
+</wpt>
+
+<wpt lat="46.1568718750534" lon="-1.15385748785812">
+    <time>2010-01-01T00:00:11Z</time>
+    <name>entreTourDeLaChaineEtLaGrosseHorloge</name>
+</wpt>
+
+<wpt lat="46.1567019444025" lon="-1.15426758534035">
+    <time>2010-01-01T00:00:15Z</time>
+    <name>rando4</name>
+</wpt>
+<!---->
+<!--<wpt lat="46.1558852441083" lon="-1.154602651307">-->
+<!--    <name>LAVraiTourDeLaChaine</name>-->
+<!--    <time>2010-01-01T00:00:20Z</time>-->
+<!--</wpt>-->
+
+    
+<!--    <wpt lat="46.1558852441083" lon="-1.154602651307">-->
+<!--        <name>LAVraiTourDeLaChaine</name>-->
+<!--        <time>2010-01-01T00:00:15Z</time>-->
+<!--    </wpt>-->
+
+    <!--    -->
+<!--    <wpt lat="46.1567804517900" lon="-1.15454563713082">-->
+<!--        <name>toto</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="46.1567804516695" lon="-1.15454563713082">-->
+<!--        <name>avantLaRueDesRestau</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="46.1567804516106" lon="-1.15454563713082">-->
+<!--        <name>avantLaRueDesRestau</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="46.1567804516117" lon="-1.15454563713082">-->
+<!--        <name>avantLaRueDesRestau</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="46.1567804516128" lon="-1.15454563713082">-->
+<!--        <name>avantLaRueDesRestau</name>-->
+<!--    </wpt>-->
+<!-- -->
+<!-- <wpt lat="46.1567804516139" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516140" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516681" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516682" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516683" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516684" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516685" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+<!-- <wpt lat="46.1567804516686" lon="-1.15454563713082">-->
+<!--     <name>avantLaRueDesRestau</name>-->
+<!--	</wpt>-->
+
+ <!--    <wpt lat="46.1567804516673" lon="-1.15454563713082">-->
+<!--    <wpt lat="46.1578971460718" lon="-1.15351098736094">-->
+<!--    <wpt lat="46.1558852441083" lon="-1.154602651307">-->
+<!--    <name>tourDeLaChaine</name>-->
+<!--    </wpt>-->
+
+</gpx>

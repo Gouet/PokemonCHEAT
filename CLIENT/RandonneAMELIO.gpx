@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+<wpt lat="46.1558852441083" lon="-1.154602651307">
+    <name>LAVraiTourDeLaChaine</name>
+    <time>2010-01-01T00:00:00Z</time>
+</wpt>
+
+<wpt lat="46.1558852441083" lon="-1.154602651307">
+    <name>pause</name>
+    <time>2010-01-01T00:00:05Z</time>
+</wpt>
+
+<wpt lat="46.1567804516673" lon="-1.15454563713082">
+    <name>avantLaRueDesRestau</name>
+    <time>2010-01-01T00:00:15Z</time>
+</wpt>
+
+<wpt lat="46.1567804516673" lon="-1.15454563713082">
+    <name>pause</name>
+    <time>2010-01-01T00:00:21Z</time>
+</wpt>
+
+<wpt lat="46.1568718750534" lon="-1.15385748785812">
+    <name>entreTourDeLaChaineEtLaGrosseHorloge</name>
+    <time>2010-01-01T00:00:30Z</time>
+</wpt>
+
+<wpt lat="46.1568718750534" lon="-1.15385748785812">
+    <name>pause</name>
+    <time>2010-01-01T00:00:33Z</time>
+</wpt>
+
+<wpt lat="46.1558852441083" lon="-1.154602651307">
+    <name>LAVraiTourDeLaChaine</name>
+    <time>2010-01-01T00:00:43Z</time>
+</wpt>
+
+
+</gpx>

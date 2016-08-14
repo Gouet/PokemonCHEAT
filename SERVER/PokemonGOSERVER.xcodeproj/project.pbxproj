@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5720F1C11D59221800FAE034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1C01D59221800FAE034 /* AppDelegate.swift */; };
+		5720F1C31D59221800FAE034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1C21D59221800FAE034 /* ViewController.swift */; };
+		5720F1C51D59221800FAE034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5720F1C41D59221800FAE034 /* Assets.xcassets */; };
+		5720F1C81D59221800FAE034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5720F1C61D59221800FAE034 /* Main.storyboard */; };
+		5720F1D31D59221800FAE034 /* PokemonGOSERVERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1D21D59221800FAE034 /* PokemonGOSERVERTests.swift */; };
+		5720F1DE1D59221800FAE034 /* PokemonGOSERVERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1DD1D59221800FAE034 /* PokemonGOSERVERUITests.swift */; };
+		5720F1F21D59223D00FAE034 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1ED1D59223D00FAE034 /* ysocket.swift */; };
+		5720F1F31D59223D00FAE034 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1EE1D59223D00FAE034 /* ytcpsocket.c */; };
+		5720F1F41D59223D00FAE034 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1EF1D59223D00FAE034 /* ytcpsocket.swift */; };
+		5720F1F51D59223D00FAE034 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1F01D59223D00FAE034 /* yudpsocket.c */; };
+		5720F1F61D59223D00FAE034 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1F11D59223D00FAE034 /* yudpsocket.swift */; };
+		5720F2001D5923C600FAE034 /* GlobalVarriable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F1FF1D5923C600FAE034 /* GlobalVarriable.swift */; };
+		5720F2021D592F5300FAE034 /* CLLocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F2011D592F5300FAE034 /* CLLocationExtension.swift */; };
+		5720F2041D593C0200FAE034 /* GPXCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5720F2031D593C0200FAE034 /* GPXCreator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5720F1CF1D59221800FAE034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5720F1B51D59221800FAE034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5720F1BC1D59221800FAE034;
+			remoteInfo = PokemonGOSERVER;
+		};
+		5720F1DA1D59221800FAE034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5720F1B51D59221800FAE034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5720F1BC1D59221800FAE034;
+			remoteInfo = PokemonGOSERVER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5720F1BD1D59221800FAE034 /* PokemonGOSERVER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGOSERVER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5720F1C01D59221800FAE034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5720F1C21D59221800FAE034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5720F1C41D59221800FAE034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5720F1C71D59221800FAE034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5720F1C91D59221800FAE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5720F1CE1D59221800FAE034 /* PokemonGOSERVERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonGOSERVERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5720F1D21D59221800FAE034 /* PokemonGOSERVERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGOSERVERTests.swift; sourceTree = "<group>"; };
+		5720F1D41D59221800FAE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5720F1D91D59221800FAE034 /* PokemonGOSERVERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonGOSERVERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5720F1DD1D59221800FAE034 /* PokemonGOSERVERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGOSERVERUITests.swift; sourceTree = "<group>"; };
+		5720F1DF1D59221800FAE034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5720F1EC1D59223D00FAE034 /* PokemonGOSERVER-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokemonGOSERVER-Bridging-Header.h"; sourceTree = "<group>"; };
+		5720F1ED1D59223D00FAE034 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		5720F1EE1D59223D00FAE034 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		5720F1EF1D59223D00FAE034 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		5720F1F01D59223D00FAE034 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		5720F1F11D59223D00FAE034 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		5720F1FF1D5923C600FAE034 /* GlobalVarriable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVarriable.swift; sourceTree = "<group>"; };
+		5720F2011D592F5300FAE034 /* CLLocationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationExtension.swift; sourceTree = "<group>"; };
+		5720F2031D593C0200FAE034 /* GPXCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXCreator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5720F1BA1D59221800FAE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1CB1D59221800FAE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1D61D59221800FAE034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5720F1B41D59221800FAE034 = {
+			isa = PBXGroup;
+			children = (
+				5720F1BF1D59221800FAE034 /* PokemonGOSERVER */,
+				5720F1D11D59221800FAE034 /* PokemonGOSERVERTests */,
+				5720F1DC1D59221800FAE034 /* PokemonGOSERVERUITests */,
+				5720F1BE1D59221800FAE034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5720F1BE1D59221800FAE034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5720F1BD1D59221800FAE034 /* PokemonGOSERVER.app */,
+				5720F1CE1D59221800FAE034 /* PokemonGOSERVERTests.xctest */,
+				5720F1D91D59221800FAE034 /* PokemonGOSERVERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5720F1BF1D59221800FAE034 /* PokemonGOSERVER */ = {
+			isa = PBXGroup;
+			children = (
+				5720F1FF1D5923C600FAE034 /* GlobalVarriable.swift */,
+				5720F1C01D59221800FAE034 /* AppDelegate.swift */,
+				5720F1EB1D59223500FAE034 /* socket */,
+				5720F1C21D59221800FAE034 /* ViewController.swift */,
+				5720F2031D593C0200FAE034 /* GPXCreator.swift */,
+				5720F1C41D59221800FAE034 /* Assets.xcassets */,
+				5720F1C61D59221800FAE034 /* Main.storyboard */,
+				5720F1C91D59221800FAE034 /* Info.plist */,
+				5720F2011D592F5300FAE034 /* CLLocationExtension.swift */,
+			);
+			path = PokemonGOSERVER;
+			sourceTree = "<group>";
+		};
+		5720F1D11D59221800FAE034 /* PokemonGOSERVERTests */ = {
+			isa = PBXGroup;
+			children = (
+				5720F1D21D59221800FAE034 /* PokemonGOSERVERTests.swift */,
+				5720F1D41D59221800FAE034 /* Info.plist */,
+			);
+			path = PokemonGOSERVERTests;
+			sourceTree = "<group>";
+		};
+		5720F1DC1D59221800FAE034 /* PokemonGOSERVERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5720F1DD1D59221800FAE034 /* PokemonGOSERVERUITests.swift */,
+				5720F1DF1D59221800FAE034 /* Info.plist */,
+			);
+			path = PokemonGOSERVERUITests;
+			sourceTree = "<group>";
+		};
+		5720F1EB1D59223500FAE034 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				5720F1ED1D59223D00FAE034 /* ysocket.swift */,
+				5720F1EE1D59223D00FAE034 /* ytcpsocket.c */,
+				5720F1EF1D59223D00FAE034 /* ytcpsocket.swift */,
+				5720F1F01D59223D00FAE034 /* yudpsocket.c */,
+				5720F1F11D59223D00FAE034 /* yudpsocket.swift */,
+				5720F1EC1D59223D00FAE034 /* PokemonGOSERVER-Bridging-Header.h */,
+			);
+			name = socket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5720F1BC1D59221800FAE034 /* PokemonGOSERVER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5720F1E21D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVER" */;
+			buildPhases = (
+				5720F1B91D59221800FAE034 /* Sources */,
+				5720F1BA1D59221800FAE034 /* Frameworks */,
+				5720F1BB1D59221800FAE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonGOSERVER;
+			productName = PokemonGOSERVER;
+			productReference = 5720F1BD1D59221800FAE034 /* PokemonGOSERVER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5720F1CD1D59221800FAE034 /* PokemonGOSERVERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5720F1E51D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVERTests" */;
+			buildPhases = (
+				5720F1CA1D59221800FAE034 /* Sources */,
+				5720F1CB1D59221800FAE034 /* Frameworks */,
+				5720F1CC1D59221800FAE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5720F1D01D59221800FAE034 /* PBXTargetDependency */,
+			);
+			name = PokemonGOSERVERTests;
+			productName = PokemonGOSERVERTests;
+			productReference = 5720F1CE1D59221800FAE034 /* PokemonGOSERVERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5720F1D81D59221800FAE034 /* PokemonGOSERVERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5720F1E81D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVERUITests" */;
+			buildPhases = (
+				5720F1D51D59221800FAE034 /* Sources */,
+				5720F1D61D59221800FAE034 /* Frameworks */,
+				5720F1D71D59221800FAE034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5720F1DB1D59221800FAE034 /* PBXTargetDependency */,
+			);
+			name = PokemonGOSERVERUITests;
+			productName = PokemonGOSERVERUITests;
+			productReference = 5720F1D91D59221800FAE034 /* PokemonGOSERVERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5720F1B51D59221800FAE034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Victor Gouet";
+				TargetAttributes = {
+					5720F1BC1D59221800FAE034 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5720F1CD1D59221800FAE034 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5720F1BC1D59221800FAE034;
+					};
+					5720F1D81D59221800FAE034 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5720F1BC1D59221800FAE034;
+					};
+				};
+			};
+			buildConfigurationList = 5720F1B81D59221800FAE034 /* Build configuration list for PBXProject "PokemonGOSERVER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5720F1B41D59221800FAE034;
+			productRefGroup = 5720F1BE1D59221800FAE034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5720F1BC1D59221800FAE034 /* PokemonGOSERVER */,
+				5720F1CD1D59221800FAE034 /* PokemonGOSERVERTests */,
+				5720F1D81D59221800FAE034 /* PokemonGOSERVERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5720F1BB1D59221800FAE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5720F1C51D59221800FAE034 /* Assets.xcassets in Resources */,
+				5720F1C81D59221800FAE034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1CC1D59221800FAE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1D71D59221800FAE034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5720F1B91D59221800FAE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5720F2001D5923C600FAE034 /* GlobalVarriable.swift in Sources */,
+				5720F1F21D59223D00FAE034 /* ysocket.swift in Sources */,
+				5720F1C31D59221800FAE034 /* ViewController.swift in Sources */,
+				5720F1F51D59223D00FAE034 /* yudpsocket.c in Sources */,
+				5720F2021D592F5300FAE034 /* CLLocationExtension.swift in Sources */,
+				5720F1F31D59223D00FAE034 /* ytcpsocket.c in Sources */,
+				5720F2041D593C0200FAE034 /* GPXCreator.swift in Sources */,
+				5720F1C11D59221800FAE034 /* AppDelegate.swift in Sources */,
+				5720F1F41D59223D00FAE034 /* ytcpsocket.swift in Sources */,
+				5720F1F61D59223D00FAE034 /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1CA1D59221800FAE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5720F1D31D59221800FAE034 /* PokemonGOSERVERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5720F1D51D59221800FAE034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5720F1DE1D59221800FAE034 /* PokemonGOSERVERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5720F1D01D59221800FAE034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5720F1BC1D59221800FAE034 /* PokemonGOSERVER */;
+			targetProxy = 5720F1CF1D59221800FAE034 /* PBXContainerItemProxy */;
+		};
+		5720F1DB1D59221800FAE034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5720F1BC1D59221800FAE034 /* PokemonGOSERVER */;
+			targetProxy = 5720F1DA1D59221800FAE034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5720F1C61D59221800FAE034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5720F1C71D59221800FAE034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5720F1E01D59221800FAE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5720F1E11D59221800FAE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5720F1E31D59221800FAE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemonGOSERVER/PokemonGOSERVER-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5720F1E41D59221800FAE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokemonGOSERVER/PokemonGOSERVER-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		5720F1E61D59221800FAE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonGOSERVER.app/Contents/MacOS/PokemonGOSERVER";
+			};
+			name = Debug;
+		};
+		5720F1E71D59221800FAE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVERTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonGOSERVER.app/Contents/MacOS/PokemonGOSERVER";
+			};
+			name = Release;
+		};
+		5720F1E91D59221800FAE034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonGOSERVER;
+			};
+			name = Debug;
+		};
+		5720F1EA1D59221800FAE034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PokemonGOSERVERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LINE.PokemonGOSERVERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokemonGOSERVER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5720F1B81D59221800FAE034 /* Build configuration list for PBXProject "PokemonGOSERVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5720F1E01D59221800FAE034 /* Debug */,
+				5720F1E11D59221800FAE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5720F1E21D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5720F1E31D59221800FAE034 /* Debug */,
+				5720F1E41D59221800FAE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5720F1E51D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5720F1E61D59221800FAE034 /* Debug */,
+				5720F1E71D59221800FAE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5720F1E81D59221800FAE034 /* Build configuration list for PBXNativeTarget "PokemonGOSERVERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5720F1E91D59221800FAE034 /* Debug */,
+				5720F1EA1D59221800FAE034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5720F1B51D59221800FAE034 /* Project object */;
+}
